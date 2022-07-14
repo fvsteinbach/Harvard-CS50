@@ -31,11 +31,11 @@ When the meteor touches the rocket:
 
 ![movementrocket](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/code%20move%20rocketship.png?raw=true)
 
-1. Make random meteor fall of the sky.
+2. Make random meteor fall of the sky.
 
 ![meteors](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/code%20that%20generates%20random%20meteors.png?raw=true)
 
-1. Defined a condition that prints "game over" and an else to when the meteor dont touch the rocketship.
+3. Defined a condition that prints "game over" and an else to when the meteor dont touch the rocketship.
 
 ![gameover](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/rocketship%20condition.png?raw=true)
 
@@ -43,4 +43,32 @@ If you want to try out the game [click here](https://scratch.mit.edu/projects/71
 
 ## Learning my first language - C.
 
-###
+### The first step
+
+The very first thing I've seen was the idea of ´int main(void) { }´ and how to use libraries, such as ´<cs50.h> and <stdio.h>´
+
+The very first programm I did with C was, obviously a ´printf("hello, world/n!");´
+
+Right after that, I was introduced to the idea of inputs, and how to get them from the user.
+
+Then, to implement what I've learned so far, I changed the "Hello, World" to "Hello, User", using the following code:
+
+´´´´
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+  string name = get_string("What is your name?\n");
+  printf("Hello, %s\n", name);
+}
+´´´
+
+### The first C problem set
+
+The first task I was required to do was called "The mario game". 
+
+It is a progamm that reads an input from the user and then prints a right aligned pyramid matching the number of rows and collumn that was entered by the user.
+
+Although it wasnt a hard task, I've felt pretty confident during the exercise, and it turns out like this:
+
