@@ -12,7 +12,9 @@ This wasn't my first contact with programming, as I already attented to a python
 
 ### Rocket Blaster
 
-The concept on the game was, I wanted the random meteors fell on the screen and as soon as the rocket touched any of them, printed on the screen a message of game over with the points that the user made. Every meteor that fell off the screen (reaching the bottom) counted 1 point.
+I wanted the random meteors falling on the screen and as soon as the rocket touched any of them, a message would be printed on the screen saying "game over" with the points that the user made.
+
+Every meteor that fell off the screen (reaching the bottom) counted 1 point.
 
 **This is how it came out:**
 
