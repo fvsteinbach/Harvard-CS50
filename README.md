@@ -45,15 +45,15 @@ If you want to try out the game [click here](https://scratch.mit.edu/projects/71
 
 ### The first step
 
-The very first thing I've seen was the idea of ´int main(void) { }´ and how to use libraries, such as ´<cs50.h> and <stdio.h>´
+The very first thing I've seen was the idea of `int main(void) { }` and how to use libraries, such as `<cs50.h> and <stdio.h>`
 
-The very first programm I did with C was, obviously a ´printf("hello, world/n!");´
+The very first programm I did with C was, obviously a `printf("hello, world/n!");`
 
 Right after that, I was introduced to the idea of inputs, and how to get them from the user.
 
 Then, to implement what I've learned so far, I changed the "Hello, World" to "Hello, User", using the following code:
 
-´´´´
+```
 #include <stdio.h>
 #include <cs50.h>
 
@@ -62,7 +62,7 @@ int main(void)
   string name = get_string("What is your name?\n");
   printf("Hello, %s\n", name);
 }
-´´´
+```
 
 ### The first C problem set
 
