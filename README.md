@@ -18,10 +18,10 @@ I wanted the random meteors falling on the screen and as soon as the rocket touc
 
 **This is how it came out:**
 
-The start
+The start:
 ![start](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/rocket%20blaster%20start.png?raw=true)
 
-When the meteor touches the rocket
+When the meteor touches the rocket:
 ![scratch](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/rocketblaster%20game%20over.png?raw=true)
 
 ## Learning my first language - C.
