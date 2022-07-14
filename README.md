@@ -66,6 +66,8 @@ int main(void)
 
 ### The first C problem set
 
+### Mario less 
+
 The first task I was required to do was called "The mario game". 
 
 It is a progamm that reads an input, from 1-8,  from the user and then prints a right aligned pyramid of "#" matching the number of rows and collumn that was entered by the user.
@@ -117,3 +119,27 @@ for (space = 0; space < height - row - 1; space++)
       printf(" ");
     }
 ```
+The programm is done.
+
+### Mario more
+
+In this version of "the mario game", besides the right aligned pyramid, I needed to build another one, left hand aligned with a space between them.
+
+Once I've already done both the pyramids, it was pretty simple.
+
+After the for loop used to print the right aligned pyramid I add a `printf(" ")` to print a blank space after the first pyramid.
+
+Then I just needed to print a left hand pyramid which I've already done before.
+
+```
+for (column = 0; column <= row; column++)
+    {
+      printf("#");
+    }
+printf("  ");
+for (column = 0; column <= row; column++)
+{
+printf("#");
+}
+```
+The programm is done.

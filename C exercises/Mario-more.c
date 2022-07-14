@@ -20,9 +20,9 @@ int main(void)
     {
       printf("#");
     }
+    // add the space between the 2 pyramids
     printf("  ");
     // create the second pyramid left aligned
-    // add the space between the 2 pyramids
     for (column = 0; column <= row; column++)
     {
       printf("#");
