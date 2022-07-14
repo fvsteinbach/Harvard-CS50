@@ -68,7 +68,52 @@ int main(void)
 
 The first task I was required to do was called "The mario game". 
 
-It is a progamm that reads an input from the user and then prints a right aligned pyramid matching the number of rows and collumn that was entered by the user.
+It is a progamm that reads an input, from 1-8,  from the user and then prints a right aligned pyramid of "#" matching the number of rows and collumn that was entered by the user.
 
-Although it wasnt a hard task, I've felt pretty confident during the exercise, and it turns out like this:
+The main issue here is that you must define what every variable will be. In this case, they were all integers. 
 
+```
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+  int height, row, space, column;
+```
+
+After defining the variables, I needed to define the function, for this exercise I used a `do while` loop, cause I needed that while started just after the first input, which couldnt be done if I used the `while` itself.
+
+The loop was like this:
+```
+int height, row, space, column;
+  do
+  {
+    height = get_int("Height: ");
+  } while (height > 8 || height < 1);
+```
+
+After defing the lenght of the pyramid, I needed to print the pyramid and for that, I used a for loop, because I already have the quantity of times the function would be done:
+
+The for loop was like this:
+```
+for (row = 0; row < height; row++)
+  {
+    }
+    for (column = 0; column <= row; column++)
+    {
+      printf("#");
+    }
+    printf("\n");
+    }
+```
+
+At this point the code was almost done, the only issue is, it had to be right hand aligned, and with the code above the pyramid was left handed.
+
+So to make that, I just needed to add the correct number of spaces before the "#", and get that ammount, was pretty simple. The number of spaces were equal to the height - row - 1 (because on the first line we dont need to put a space), once with this formula, I just needed to put this BEFORE the print of the "#" once the spaces gone before the hashes.
+
+```
+for (space = 0; space < height - row - 1; space++)
+    {
+      printf(" ");
+    }
+```
