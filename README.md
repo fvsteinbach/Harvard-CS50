@@ -19,10 +19,26 @@ I wanted the random meteors falling on the screen and as soon as the rocket touc
 **This is how it came out:**
 
 The start:
-![start](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/rocket%20blaster%20start.png?raw=true)
+![start](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/rocketblaster%20start%20.png?raw=true)
 
 When the meteor touches the rocket:
 ![scratch](https://github.com/fvsteinbach/Harvard-CS50/blob/main/Scratch/rocketblaster%20game%20over.png?raw=true)
 
+**The logic behind it:**
+1. Defined how to make the rocketship moves with the arrow keys.
+
+![movementrocket]()
+
+1. Make random meteor fall of the sky.
+
+![meteors]()
+
+1. Defined a condition that prints "game over" and an else to when the meteor dont touch the rocketship.
+
+![gameover]()
+
+If you want to try out the game [click here](https://scratch.mit.edu/projects/710088029/fullscreen/)
+
 ## Learning my first language - C.
 
+###
